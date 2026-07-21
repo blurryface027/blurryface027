@@ -156,17 +156,6 @@ Security scanning — SAST, dependency audit, image scanning — runs inside the
   ============================================================
 -->
 
-<h3 align="center">GitHub Activity</h3>
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=krishanmohansharma&show_icons=true&hide_border=true&bg_color=00000000&title_color=E50914&icon_color=E50914&text_color=FFFFFF&hide_rank=false" alt="GitHub stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishanmohansharma&layout=compact&hide_border=true&bg_color=00000000&title_color=E50914&text_color=FFFFFF" alt="Top languages"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=krishanmohansharma&hide_border=true&background=00000000&stroke=E50914&ring=E50914&fire=E50914&currStreakLabel=FFFFFF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=FFFFFF80" width="100%" alt="GitHub streak"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=krishanmohansharma&bg_color=00000000&color=FFFFFF&line=E50914&point=E50914&area=true&hide_border=true" width="100%" alt="Contribution activity graph"/>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/krishanmohansharma/krishanmohansharma/output/assets/snake-dark.svg"/>
   <img alt="contribution snake animation" src="https://raw.githubusercontent.com/krishanmohansharma/krishanmohansharma/output/assets/snake.svg" width="100%"/>
