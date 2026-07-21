@@ -1,0 +1,124 @@
+<svg viewBox="0 0 420 910" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace">
+  <defs>
+    <filter id="rg" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="420" height="910" fill="#000000"/>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.20s" dur="0.35s" fill="freeze"/>
+    <rect x="80.0" y="30" width="260" height="46" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.6" />
+    <text x="210.0" y="58.0" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="400">GitHub</text>
+  </g>
+  <line x1="210.0" y1="76" x2="210.0" y2="76" stroke="#E50914" stroke-width="2" stroke-opacity="0.8">
+    <animate attributeName="y2" from="76" to="110" begin="0.55s" dur="0.3s" fill="freeze"/>
+  </line>
+  <polygon points="205.0,108 215.0,108 210.0,116" fill="#E50914" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.9" begin="0.85s" dur="0.15s" fill="freeze"/>
+  </polygon>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.65s" dur="0.35s" fill="freeze"/>
+    <rect x="80.0" y="110" width="260" height="46" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.6" />
+    <text x="210.0" y="138.0" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="400">Git</text>
+  </g>
+  <line x1="210.0" y1="156" x2="210.0" y2="156" stroke="#E50914" stroke-width="2" stroke-opacity="0.8">
+    <animate attributeName="y2" from="156" to="190" begin="1.00s" dur="0.3s" fill="freeze"/>
+  </line>
+  <polygon points="205.0,188 215.0,188 210.0,196" fill="#E50914" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.9" begin="1.30s" dur="0.15s" fill="freeze"/>
+  </polygon>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.10s" dur="0.35s" fill="freeze"/>
+    <rect x="80.0" y="190" width="260" height="46" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.6" />
+    <text x="210.0" y="218.0" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="400">Dockerfile</text>
+  </g>
+  <line x1="210.0" y1="236" x2="210.0" y2="236" stroke="#E50914" stroke-width="2" stroke-opacity="0.8">
+    <animate attributeName="y2" from="236" to="270" begin="1.45s" dur="0.3s" fill="freeze"/>
+  </line>
+  <polygon points="205.0,268 215.0,268 210.0,276" fill="#E50914" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.9" begin="1.75s" dur="0.15s" fill="freeze"/>
+  </polygon>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.55s" dur="0.35s" fill="freeze"/>
+    <rect x="80.0" y="270" width="260" height="46" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.6" />
+    <text x="210.0" y="298.0" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="400">Docker Build</text>
+  </g>
+  <line x1="210.0" y1="316" x2="210.0" y2="316" stroke="#E50914" stroke-width="2" stroke-opacity="0.8">
+    <animate attributeName="y2" from="316" to="350" begin="1.90s" dur="0.3s" fill="freeze"/>
+  </line>
+  <polygon points="205.0,348 215.0,348 210.0,356" fill="#E50914" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.9" begin="2.20s" dur="0.15s" fill="freeze"/>
+  </polygon>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.00s" dur="0.35s" fill="freeze"/>
+    <rect x="80.0" y="350" width="260" height="46" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.6" />
+    <text x="210.0" y="378.0" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="400">Docker Image</text>
+  </g>
+  <line x1="210.0" y1="396" x2="210.0" y2="396" stroke="#E50914" stroke-width="2" stroke-opacity="0.8">
+    <animate attributeName="y2" from="396" to="430" begin="2.35s" dur="0.3s" fill="freeze"/>
+  </line>
+  <polygon points="205.0,428 215.0,428 210.0,436" fill="#E50914" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.9" begin="2.65s" dur="0.15s" fill="freeze"/>
+  </polygon>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.45s" dur="0.35s" fill="freeze"/>
+    <rect x="80.0" y="430" width="260" height="46" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.6" />
+    <text x="210.0" y="458.0" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="400">Amazon ECR</text>
+  </g>
+  <line x1="210.0" y1="476" x2="210.0" y2="476" stroke="#E50914" stroke-width="2" stroke-opacity="0.8">
+    <animate attributeName="y2" from="476" to="510" begin="2.80s" dur="0.3s" fill="freeze"/>
+  </line>
+  <polygon points="205.0,508 215.0,508 210.0,516" fill="#E50914" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.9" begin="3.10s" dur="0.15s" fill="freeze"/>
+  </polygon>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.90s" dur="0.35s" fill="freeze"/>
+    <rect x="80.0" y="510" width="260" height="46" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.6" />
+    <text x="210.0" y="538.0" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="400">Amazon ECS</text>
+  </g>
+  <line x1="210.0" y1="556" x2="210.0" y2="556" stroke="#E50914" stroke-width="2" stroke-opacity="0.8">
+    <animate attributeName="y2" from="556" to="590" begin="3.25s" dur="0.3s" fill="freeze"/>
+  </line>
+  <polygon points="205.0,588 215.0,588 210.0,596" fill="#E50914" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.9" begin="3.55s" dur="0.15s" fill="freeze"/>
+  </polygon>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.35s" dur="0.35s" fill="freeze"/>
+    <rect x="80.0" y="590" width="260" height="46" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.6" />
+    <text x="210.0" y="618.0" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="400">Task Definition</text>
+  </g>
+  <line x1="210.0" y1="636" x2="210.0" y2="636" stroke="#E50914" stroke-width="2" stroke-opacity="0.8">
+    <animate attributeName="y2" from="636" to="670" begin="3.70s" dur="0.3s" fill="freeze"/>
+  </line>
+  <polygon points="205.0,668 215.0,668 210.0,676" fill="#E50914" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.9" begin="4.00s" dur="0.15s" fill="freeze"/>
+  </polygon>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.80s" dur="0.35s" fill="freeze"/>
+    <rect x="80.0" y="670" width="260" height="46" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.6" />
+    <text x="210.0" y="698.0" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="400">Service</text>
+  </g>
+  <line x1="210.0" y1="716" x2="210.0" y2="716" stroke="#E50914" stroke-width="2" stroke-opacity="0.8">
+    <animate attributeName="y2" from="716" to="750" begin="4.15s" dur="0.3s" fill="freeze"/>
+  </line>
+  <polygon points="205.0,748 215.0,748 210.0,756" fill="#E50914" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.9" begin="4.45s" dur="0.15s" fill="freeze"/>
+  </polygon>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="4.25s" dur="0.35s" fill="freeze"/>
+    <rect x="80.0" y="750" width="260" height="46" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.6" />
+    <text x="210.0" y="778.0" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="400">Load Balancer</text>
+  </g>
+  <line x1="210.0" y1="796" x2="210.0" y2="796" stroke="#E50914" stroke-width="2" stroke-opacity="0.8">
+    <animate attributeName="y2" from="796" to="830" begin="4.60s" dur="0.3s" fill="freeze"/>
+  </line>
+  <polygon points="205.0,828 215.0,828 210.0,836" fill="#E50914" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.9" begin="4.90s" dur="0.15s" fill="freeze"/>
+  </polygon>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="4.70s" dur="0.35s" fill="freeze"/>
+    <rect x="80.0" y="830" width="260" height="46" rx="8" fill="#000000" stroke="#E50914" stroke-opacity="1" stroke-width="1.6" filter='url(#rg)'/>
+    <text x="210.0" y="858.0" text-anchor="middle" font-size="15" fill="#E50914" font-weight="700">Production</text>
+  </g>
+</svg>

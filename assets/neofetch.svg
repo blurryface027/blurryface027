@@ -1,0 +1,50 @@
+<svg viewBox="0 0 900 340" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace">
+  <defs>
+    <filter id="ng" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="340" rx="14" fill="#000000"/>
+  <rect x="1" y="1" width="898" height="338" rx="13" fill="none" stroke="#E50914" stroke-opacity="0.5" stroke-width="1.5"/>
+  <line x1="0" y1="42" x2="900" y2="42" stroke="#E50914" stroke-opacity="0.35"/>
+  <circle cx="26" cy="21" r="6" fill="none" stroke="#E50914" stroke-width="1.4"/>
+  <circle cx="46" cy="21" r="6" fill="none" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.4"/>
+  <circle cx="66" cy="21" r="6" fill="none" stroke="#E50914" stroke-opacity="0.5" stroke-width="1.4"/>
+  <text x="450" y="26" fill="#FFFFFF" fill-opacity="0.5" font-size="12" text-anchor="middle" letter-spacing="1">krishan@github &#8212; neofetch</text>
+
+  <g transform="translate(60,80)">
+    <polygon points="70,0 140,170 110,170 70,70 30,170 0,170" fill="none" stroke="#E50914" stroke-width="4" stroke-linejoin="round">
+      <animate attributeName="stroke-dasharray" from="0,600" to="600,0" dur="1.4s" fill="freeze"/>
+    </polygon>
+    <polygon points="70,40 100,170 85,170 70,105 55,170 40,170" fill="#FFFFFF" fill-opacity="0.9">
+      <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.5s" fill="freeze"/>
+    </polygon>
+  </g>
+
+  <g font-size="15" fill="#FFFFFF">
+    <text x="260" y="90"><tspan fill="#E50914" font-weight="700">krishan</tspan><tspan fill-opacity="0.5">@</tspan><tspan fill="#E50914" font-weight="700">github</tspan></text>
+    <line x1="260" y1="100" x2="520" y2="100" stroke="#FFFFFF" stroke-opacity="0.2"/>
+
+    <text x="260" y="126"><tspan fill="#E50914">OS</tspan><tspan dx="10" fill-opacity="0.5">&#8594;</tspan><tspan dx="10">Arch Linux x86_64</tspan></text>
+    <text x="260" y="150"><tspan fill="#E50914">Shell</tspan><tspan dx="10" fill-opacity="0.5">&#8594;</tspan><tspan dx="10">zsh 5.9</tspan></text>
+    <text x="260" y="174"><tspan fill="#E50914">Editor</tspan><tspan dx="10" fill-opacity="0.5">&#8594;</tspan><tspan dx="10">VS Code</tspan></text>
+    <text x="260" y="198"><tspan fill="#E50914">WM</tspan><tspan dx="10" fill-opacity="0.5">&#8594;</tspan><tspan dx="10">Hyprland</tspan></text>
+    <text x="260" y="222"><tspan fill="#E50914">Cloud</tspan><tspan dx="10" fill-opacity="0.5">&#8594;</tspan><tspan dx="10">AWS (ECS / ECR / CloudWatch)</tspan></text>
+    <text x="260" y="246"><tspan fill="#E50914">Containers</tspan><tspan dx="10" fill-opacity="0.5">&#8594;</tspan><tspan dx="10">Docker</tspan></text>
+    <text x="260" y="270"><tspan fill="#E50914">CI/CD</tspan><tspan dx="10" fill-opacity="0.5">&#8594;</tspan><tspan dx="10">GitHub Actions</tspan></text>
+    <text x="260" y="294"><tspan fill="#E50914">Orchestration</tspan><tspan dx="10" fill-opacity="0.5">&#8594;</tspan><tspan dx="10">Kubernetes</tspan></text>
+
+    <text x="600" y="126" fill-opacity="0.6">Focus</text>
+    <text x="600" y="150" fill-opacity="0.9">Automation-first</text>
+    <text x="600" y="174" fill-opacity="0.9">Infra as code</text>
+    <text x="600" y="198" fill-opacity="0.9">Zero-touch deploys</text>
+  </g>
+
+  <g transform="translate(260,308)">
+    <rect width="16" height="16" fill="#000000" stroke="#FFFFFF" stroke-width="1"/>
+    <rect x="18" width="16" height="16" fill="#FFFFFF"/>
+    <rect x="36" width="16" height="16" fill="#000000" stroke="#E50914" stroke-width="1"/>
+    <rect x="54" width="16" height="16" fill="#E50914"/>
+  </g>
+</svg>

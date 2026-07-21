@@ -1,0 +1,80 @@
+<svg viewBox="0 0 500 514" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace">
+<defs>
+<filter id="ag" x="-80%" y="-80%" width="260%" height="260%">
+<feGaussianBlur stdDeviation="5" result="b"/>
+<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+<rect width="500" height="514" fill="#000000"/>
+<g opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="0.20s" dur="0.35s" fill="freeze"/>
+<rect x="100.0" y="24" width="300" height="44" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="1.6" />
+<text x="250.0" y="51.0" text-anchor="middle" font-size="14.5" fill="#FFFFFF" font-weight="400">Internet</text>
+</g>
+<line x1="250.0" y1="68" x2="250.0" y2="68" stroke="#E50914" stroke-width="2" stroke-opacity="0.7">
+<animate attributeName="y2" from="68" to="94" begin="0.55s" dur="0.25s" fill="freeze"/>
+</line>
+<polygon points="245.0,92 255.0,92 250.0,100" fill="#E50914" opacity="0">
+<animate attributeName="opacity" from="0" to="0.85" begin="0.80s" dur="0.12s" fill="freeze"/>
+</polygon>
+<g opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.35s" fill="freeze"/>
+<rect x="100.0" y="94" width="300" height="44" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="1.6" />
+<text x="250.0" y="121.0" text-anchor="middle" font-size="14.5" fill="#FFFFFF" font-weight="400">Application Load Balancer</text>
+</g>
+<line x1="250.0" y1="138" x2="250.0" y2="138" stroke="#E50914" stroke-width="2" stroke-opacity="0.7">
+<animate attributeName="y2" from="138" to="164" begin="0.95s" dur="0.25s" fill="freeze"/>
+</line>
+<polygon points="245.0,162 255.0,162 250.0,170" fill="#E50914" opacity="0">
+<animate attributeName="opacity" from="0" to="0.85" begin="1.20s" dur="0.12s" fill="freeze"/>
+</polygon>
+<g opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="1.00s" dur="0.35s" fill="freeze"/>
+<rect x="100.0" y="164" width="300" height="44" rx="8" fill="#000000" stroke="#E50914" stroke-opacity="1" stroke-width="1.6" filter='url(#ag)'/>
+<text x="250.0" y="191.0" text-anchor="middle" font-size="14.5" fill="#E50914" font-weight="700">Amazon ECS</text>
+</g>
+<line x1="250.0" y1="208" x2="250.0" y2="208" stroke="#E50914" stroke-width="2" stroke-opacity="0.7">
+<animate attributeName="y2" from="208" to="234" begin="1.35s" dur="0.25s" fill="freeze"/>
+</line>
+<polygon points="245.0,232 255.0,232 250.0,240" fill="#E50914" opacity="0">
+<animate attributeName="opacity" from="0" to="0.85" begin="1.60s" dur="0.12s" fill="freeze"/>
+</polygon>
+<g opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="1.40s" dur="0.35s" fill="freeze"/>
+<rect x="100.0" y="234" width="300" height="44" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="1.6" />
+<text x="250.0" y="261.0" text-anchor="middle" font-size="14.5" fill="#FFFFFF" font-weight="400">Docker Container</text>
+</g>
+<line x1="250.0" y1="278" x2="250.0" y2="278" stroke="#E50914" stroke-width="2" stroke-opacity="0.7">
+<animate attributeName="y2" from="278" to="304" begin="1.75s" dur="0.25s" fill="freeze"/>
+</line>
+<polygon points="245.0,302 255.0,302 250.0,310" fill="#E50914" opacity="0">
+<animate attributeName="opacity" from="0" to="0.85" begin="2.00s" dur="0.12s" fill="freeze"/>
+</polygon>
+<g opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="1.80s" dur="0.35s" fill="freeze"/>
+<rect x="100.0" y="304" width="300" height="44" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="1.6" />
+<text x="250.0" y="331.0" text-anchor="middle" font-size="14.5" fill="#FFFFFF" font-weight="400">Amazon ECR</text>
+</g>
+<line x1="250.0" y1="348" x2="250.0" y2="348" stroke="#E50914" stroke-width="2" stroke-opacity="0.7">
+<animate attributeName="y2" from="348" to="374" begin="2.15s" dur="0.25s" fill="freeze"/>
+</line>
+<polygon points="245.0,372 255.0,372 250.0,380" fill="#E50914" opacity="0">
+<animate attributeName="opacity" from="0" to="0.85" begin="2.40s" dur="0.12s" fill="freeze"/>
+</polygon>
+<g opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2.20s" dur="0.35s" fill="freeze"/>
+<rect x="100.0" y="374" width="300" height="44" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="1.6" />
+<text x="250.0" y="401.0" text-anchor="middle" font-size="14.5" fill="#FFFFFF" font-weight="400">GitHub Actions</text>
+</g>
+<line x1="250.0" y1="418" x2="250.0" y2="418" stroke="#E50914" stroke-width="2" stroke-opacity="0.7">
+<animate attributeName="y2" from="418" to="444" begin="2.55s" dur="0.25s" fill="freeze"/>
+</line>
+<polygon points="245.0,442 255.0,442 250.0,450" fill="#E50914" opacity="0">
+<animate attributeName="opacity" from="0" to="0.85" begin="2.80s" dur="0.12s" fill="freeze"/>
+</polygon>
+<g opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2.60s" dur="0.35s" fill="freeze"/>
+<rect x="100.0" y="444" width="300" height="44" rx="8" fill="#000000" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="1.6" />
+<text x="250.0" y="471.0" text-anchor="middle" font-size="14.5" fill="#FFFFFF" font-weight="400">GitHub Repository</text>
+</g>
+</svg>

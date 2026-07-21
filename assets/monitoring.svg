@@ -1,0 +1,66 @@
+<svg viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace">
+  <rect width="900" height="320" rx="14" fill="#000000"/>
+  <rect x="1" y="1" width="898" height="318" rx="13" fill="none" stroke="#E50914" stroke-opacity="0.5" stroke-width="1.5"/>
+  <line x1="0" y1="42" x2="900" y2="42" stroke="#E50914" stroke-opacity="0.35"/>
+  <circle cx="26" cy="21" r="6" fill="none" stroke="#E50914" stroke-width="1.4"/>
+  <circle cx="46" cy="21" r="6" fill="none" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.4"/>
+  <circle cx="66" cy="21" r="6" fill="none" stroke="#E50914" stroke-opacity="0.5" stroke-width="1.4"/>
+  <text x="450" y="26" fill="#FFFFFF" fill-opacity="0.5" font-size="12" text-anchor="middle">monitoring &#8212; production overview</text>
+
+  <!-- CPU sparkline -->
+  <g transform="translate(30,60)">
+    <text x="0" y="0" fill="#FFFFFF" fill-opacity="0.6" font-size="11">CPU</text>
+    <text x="0" y="18" fill="#E50914" font-size="20" font-weight="700">34%</text>
+    <polyline points="0,60 20,50 40,55 60,40 80,45 100,30 120,35 140,20 160,28" fill="none" stroke="#E50914" stroke-width="2" stroke-opacity="0">
+      <animate attributeName="stroke-opacity" from="0" to="0.9" begin="0.3s" dur="0.5s" fill="freeze"/>
+    </polyline>
+  </g>
+
+  <!-- RAM -->
+  <g transform="translate(240,60)">
+    <text x="0" y="0" fill="#FFFFFF" fill-opacity="0.6" font-size="11">RAM</text>
+    <text x="0" y="18" fill="#FFFFFF" font-size="20" font-weight="700">1.2 GB</text>
+    <rect x="0" y="30" width="160" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.1"/>
+    <rect x="0" y="30" width="0" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.8">
+      <animate attributeName="width" from="0" to="70" begin="0.4s" dur="0.6s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <!-- Requests -->
+  <g transform="translate(450,60)">
+    <text x="0" y="0" fill="#FFFFFF" fill-opacity="0.6" font-size="11">REQUESTS / MIN</text>
+    <text x="0" y="18" fill="#E50914" font-size="20" font-weight="700">2,481</text>
+  </g>
+
+  <!-- Latency -->
+  <g transform="translate(660,60)">
+    <text x="0" y="0" fill="#FFFFFF" fill-opacity="0.6" font-size="11">LATENCY p95</text>
+    <text x="0" y="18" fill="#FFFFFF" font-size="20" font-weight="700">88ms</text>
+  </g>
+
+  <line x1="30" y1="120" x2="870" y2="120" stroke="#FFFFFF" stroke-opacity="0.12"/>
+
+  <!-- bar chart: containers / cloud / pipeline health -->
+  <g transform="translate(30,150)">
+    <text x="0" y="0" fill="#FFFFFF" fill-opacity="0.6" font-size="11">SYSTEM HEALTH</text>
+    <g font-size="11" fill="#FFFFFF">
+      <text x="0" y="34" fill-opacity="0.7">Containers</text>
+      <rect x="140" y="24" width="500" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.08"/>
+      <rect x="140" y="24" width="0" height="10" rx="5" fill="#E50914"><animate attributeName="width" from="0" to="480" begin="0.5s" dur="0.7s" fill="freeze"/></rect>
+
+      <text x="0" y="64" fill-opacity="0.7">Cloud (AWS)</text>
+      <rect x="140" y="54" width="500" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.08"/>
+      <rect x="140" y="54" width="0" height="10" rx="5" fill="#E50914"><animate attributeName="width" from="0" to="495" begin="0.6s" dur="0.7s" fill="freeze"/></rect>
+
+      <text x="0" y="94" fill-opacity="0.7">Pipeline</text>
+      <rect x="140" y="84" width="500" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.08"/>
+      <rect x="140" y="84" width="0" height="10" rx="5" fill="#FFFFFF"><animate attributeName="width" from="0" to="470" begin="0.7s" dur="0.7s" fill="freeze"/></rect>
+    </g>
+  </g>
+
+  <g transform="translate(30,265)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.4s" fill="freeze"/>
+    <circle cx="4" cy="0" r="4" fill="#E50914"><animate attributeName="opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <text x="16" y="4" fill="#FFFFFF" fill-opacity="0.7" font-size="12">All systems operational &#8212; last check 4s ago</text>
+  </g>
+</svg>

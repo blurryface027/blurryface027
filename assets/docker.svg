@@ -1,0 +1,61 @@
+<svg viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace">
+  <defs>
+    <filter id="dg" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="220" fill="#000000"/>
+
+  <!-- Dockerfile -->
+  <g>
+    <rect x="20" y="70" width="150" height="80" rx="8" fill="#000000" stroke="#FFFFFF" stroke-width="1.6" stroke-opacity="0.8"/>
+    <text x="95" y="105" text-anchor="middle" fill="#FFFFFF" font-size="13">Dockerfile</text>
+    <text x="95" y="124" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.45" font-size="10">FROM node:20</text>
+  </g>
+
+  <line x1="170" y1="110" x2="170" y2="110" stroke="#E50914" stroke-width="2">
+    <animate attributeName="x2" from="170" to="270" begin="0.3s" dur="0.4s" fill="freeze"/>
+  </line>
+  <text x="220" y="98" text-anchor="middle" fill="#E50914" fill-opacity="0" font-size="10" letter-spacing="1">
+    <animate attributeName="fill-opacity" from="0" to="1" begin="0.7s" dur="0.2s" fill="freeze"/>
+    docker build
+  </text>
+
+  <!-- Image -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.3s" fill="freeze"/>
+    <rect x="270" y="65" width="150" height="90" rx="8" fill="#000000" stroke="#E50914" stroke-width="1.8"/>
+    <text x="345" y="100" text-anchor="middle" fill="#FFFFFF" font-size="13">Image</text>
+    <text x="345" y="122" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.5" font-size="10">app:latest</text>
+    <text x="345" y="138" text-anchor="middle" fill="#E50914" fill-opacity="0.8" font-size="9">sha256:9f2a...</text>
+  </g>
+
+  <line x1="420" y1="110" x2="420" y2="110" stroke="#E50914" stroke-width="2">
+    <animate attributeName="x2" from="420" to="520" begin="1.15s" dur="0.4s" fill="freeze"/>
+  </line>
+  <text x="470" y="98" text-anchor="middle" fill="#E50914" fill-opacity="0" font-size="10" letter-spacing="1">
+    <animate attributeName="fill-opacity" from="0" to="1" begin="1.55s" dur="0.2s" fill="freeze"/>
+    docker push
+  </text>
+
+  <!-- progress bar for push -->
+  <rect x="440" y="130" width="60" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.1"/>
+  <rect x="440" y="130" width="0" height="6" rx="3" fill="#E50914">
+    <animate attributeName="width" from="0" to="60" begin="1.6s" dur="0.8s" fill="freeze"/>
+  </rect>
+
+  <!-- ECR -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.55s" dur="0.3s" fill="freeze"/>
+    <rect x="520" y="55" width="180" height="110" rx="10" fill="#000000" stroke="#FFFFFF" stroke-width="1.6" filter="url(#dg)"/>
+    <text x="610" y="90" text-anchor="middle" fill="#E50914" font-size="14" font-weight="700">Amazon ECR</text>
+    <text x="610" y="112" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.6" font-size="10">image pushed</text>
+    <circle cx="590" cy="135" r="4" fill="#E50914">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.4s" begin="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="605" y="139" fill="#FFFFFF" fill-opacity="0.6" font-size="10">registry: healthy</text>
+  </g>
+
+  <text x="20" y="195" fill="#FFFFFF" fill-opacity="0.35" font-size="11">$ docker build -t app:latest . &amp;&amp; docker push app:latest</text>
+</svg>

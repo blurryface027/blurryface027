@@ -1,0 +1,44 @@
+<svg viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace">
+  <defs>
+    <filter id="fg" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="180" rx="14" fill="#000000"/>
+  <rect x="1" y="1" width="898" height="178" rx="13" fill="none" stroke="#E50914" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="26" y="34" fill="#FFFFFF" font-size="14"><tspan fill-opacity="0.5">$</tspan> systemctl status krishan.service</text>
+
+  <g font-size="12.5" fill="#FFFFFF">
+    <text x="26" y="62" fill-opacity="0">
+      <animate attributeName="fill-opacity" from="0" to="0.85" begin="0.25s" dur="0.25s" fill="freeze"/>
+      krishan.service - DevOps Engineer &amp; Cloud Automation
+    </text>
+    <text x="26" y="82" fill-opacity="0">
+      <animate attributeName="fill-opacity" from="0" to="0.75" begin="0.45s" dur="0.25s" fill="freeze"/>
+      <tspan fill="#E50914">Loaded:</tspan> enabled (/etc/systemd/system/krishan.service)
+    </text>
+    <text x="26" y="102" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.65s" dur="0.25s" fill="freeze"/>
+      <tspan fill="#E50914">Active:</tspan> <tspan fill="#FFFFFF">active (running)</tspan>
+      <circle cx="230" cy="-4" r="4" fill="#E50914" filter="url(#fg)"><animate attributeName="opacity" values="1;0.35;1" dur="1.5s" begin="0.9s" repeatCount="indefinite"/></circle>
+    </text>
+  </g>
+
+  <g font-size="12" fill="#FFFFFF" fill-opacity="0.8">
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.2s" fill="freeze"/>
+      <text x="26" y="128"><tspan fill="#E50914">&#10003;</tspan> Cloud Connected</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.2s" fill="freeze"/>
+      <text x="230" y="128"><tspan fill="#E50914">&#10003;</tspan> Docker Running</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.2s" fill="freeze"/>
+      <text x="430" y="128"><tspan fill="#E50914">&#10003;</tspan> Pipeline Healthy</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.2s" fill="freeze"/>
+      <text x="630" y="128"><tspan fill="#E50914">&#10003;</tspan> Containers Healthy</text></g>
+  </g>
+
+  <line x1="26" y1="142" x2="874" y2="142" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="450" y="164" text-anchor="middle" fill="#E50914" font-size="13" font-weight="700" letter-spacing="1.5" opacity="0" filter="url(#fg)">
+    <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.4s" fill="freeze"/>
+    DEPLOYMENT SUCCESSFUL &#8212; THANKS FOR STOPPING BY
+  </text>
+</svg>
