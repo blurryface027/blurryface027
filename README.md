@@ -148,7 +148,6 @@ Security scanning — SAST, dependency audit, image scanning — runs inside the
 <img src="assets/monitoring.svg" width="100%" alt="production monitoring dashboard"/>
 </div>
 
-<img src="assets/divider.svg" width="100%" alt=""/>
 
 <!--
   ============================================================
