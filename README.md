@@ -47,9 +47,13 @@
   ============================================================
 -->
 
+## 🐍 Contribution Snake
+
+Watch my GitHub contributions come alive!
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/krishanmohansharma/krishanmohansharma/output/assets/snake-dark.svg"/>
-  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/krishanmohansharma/krishanmohansharma/output/assets/snake.svg" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blurryface027/blurryface027/output/assets/snake-dark.svg"/>
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/blurryface027/blurryface027/output/assets/snake.svg" width="100%"/>
 </picture>
 
 </div>
