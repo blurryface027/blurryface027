@@ -60,5 +60,5 @@
 </div>
 
 <p align="center">
-<sub>last deployed <!-- LAST_DEPLOY_START -->`2026-11-13 14:01 UTC`<!-- LAST_DEPLOY_END --> &middot; built with GitHub Actions, Docker and too much coffee</sub>
+<sub>last deployed <!-- LAST_DEPLOY_START -->`2026-11-14 13:04 UTC`<!-- LAST_DEPLOY_END --> &middot; built with GitHub Actions, Docker and too much coffee</sub>
 </p>
